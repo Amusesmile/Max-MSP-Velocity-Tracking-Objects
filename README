@@ -1,0 +1,12 @@
+These objects were built to work with Max/MSP 5 on Snow Leopard.  
+I've also included the source which includes XCode projects for building them on another machine.  
+
+jd.derivation takes the derivative of one dimensional velocity values.  You specify the number of frames to average and it gives you back the velocity, acceleration, and jerk over this timeperiod.
+jd.ringave computes a running average of incoming numbers over x-frames.  
+jd.ringdiff computes the average difference of incoming numbers over x-frames.
+
+I built these objects while experimenting with a motion tracking controller.  
+Send any feedback to joshuadaviddickinson # gmail.com
+
+Joshua Dickinson
+3.2.2012  
